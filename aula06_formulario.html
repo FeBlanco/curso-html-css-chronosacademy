@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>ChronosAcademy</title>
+        <link href="estilo_formulario.css" rel="stylesheet">
+        <style>
+            form{text-align:left; padding-left:20%;}
+            p{ font-weight:bolder;}
+            textarea{border-radius: 10px;}
+        </style>
+    
+    </head>
+    <body>
+        <header class="centralizaTexto borda centralizaMargem largura">
+                <h1>Filme Plataforma</h1>
+        </header>
+        <nav class="centralizaTexto borda centralizaMargem largura">
+            <h1>Menu ChronosAcademy</h1>
+        </nav>
+        <section class="centralizaTexto borda centralizaMargem largura">
+            <h1>Cadastro Filme</h1>
+            <form action="#">
+                <p>
+                    <label>Nome Filme: <input type = "text"></label>
+                </p>
+                
+                <p>
+                    <label>Descricao: <textarea cols="60" rows="10" 
+                                                style=":none;"></textarea>
+                    </label>
+                </p>
+                
+                <p>
+                    <label>Plataforma: <input list="listaPlataforma"></label>
+                </p>
+                
+                <datalist id="listaPlataforma">
+                    <option value="Netflix">
+                    <option value="Prime Video">
+                    <option value="Disney+">
+                </datalist>
+                
+                <p>
+                    <span id="categoria">Categoria:</span>
+                    <label>
+                        <input type="radio" name="categoria" value="terror">Terror
+                    </label>
+                    <label>
+                        <input type="radio" name="categoria" value="acao">Ação
+                    </label>
+                    <label>
+                        <input type="radio" name="categoria" value="Aventura">Aventura
+                    </label>
+                    <label>
+                        <input type="radio" name="categoria" value="suspense">Suspense
+                    </label>
+                </p>
+                
+                <p>
+                    <input type="reset">
+                    <input type="submit">
+                </p>
+                
+            </form>
+            
+        </section>
+        <footer class="centralizaTexto borda centralizaMargem largura">
+            <h1>Rodapé ChronosAcademy</h1>
+        </footer>
+
+    </body>
+</html>

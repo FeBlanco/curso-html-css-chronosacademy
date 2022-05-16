@@ -1,0 +1,9 @@
+.centralizaTexto{text-align:center; }
+.borda {border:1px solid #000; }
+.centralizaMargem {margin-left:auto; margin-right:auto;}
+.largura {width: 1200px; background-color: aqua }
+header { height: 100px; background-color: darkviolet;}
+nav {height:70px; background-color: greenyellow }
+section { height: 600px; background-color: aqua }
+footer {height: 80px; background-color: greenyellow }
+
